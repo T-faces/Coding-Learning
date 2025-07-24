@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Game SD - Susun Blok Coding</title>
+    <link rel="stylesheet" href="sd-style.css" />
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Game SD: Susun Perintah Robot</h1>
+      <a href="../index.html">← Kembali</a>
+    </header>
+
+    <main>
+      <div id="blocklyDiv" style="height: 400px; width: 100%;"></div>
+      <xml id="toolbox" style="display: none">
+        <block type="move_forward"></block>
+        <block type="turn_left"></block>
+        <block type="turn_right"></block>
+      </xml>
+
+      <button onclick="runCode()">▶️ Jalankan Kode</button>
+      <div id="output"></div>
+    </main>
+
+    <script src="sd-script.js"></script>
+  </body>
+</html>
